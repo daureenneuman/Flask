@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <title>madlib</title>
+</head>
+<body>
+There once was a sentient {{ color }} {{ noun }} sitting in the Hackbright Lab.
+When {{ person }} went to pick it up, {{ gender }} burst into flames in a totally {{ adjective }} way.
+
+{% if car and bike %}
+They took their {{ bike }} and {{ car }} and drove away.
+{% elif car %}
+They took their {{ car }} and drove away.
+{% elif bike %}
+They took their {{ bike }} and drove away.
+{% else %}
+They walked away.
+{% endif %}
+
+</body>
+</html>
